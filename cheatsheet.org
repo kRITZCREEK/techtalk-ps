@@ -8,6 +8,7 @@ cool wenn ich euch die heute mal vorstelle.
 
 #+BEGIN_SRC purescript
 import Prelude
+import Maybe
 
 > 1 + 2
 3
@@ -24,12 +25,13 @@ Number
 > 0.1 + 0.2
 0.30000004
 
-> :t \x -> x + 2
+> :t \x -> x + 1
 Int -> Int
 
-> (\x -> x + 2) 2
-4
+> (\x -> x + 1) 2
+3
 
+> let succ x = x + 1
 > :t [1, 2, 3]
 Array Int
 
@@ -43,7 +45,11 @@ Array Int
           
     Number
 
-log "Hello REWE"
+> let numbers = [1, 2, 3]
+> map succ numbers
+[2,3,4]
+
+> log "Hello REWE"
 "Hello REWE"
 unit
 
@@ -54,5 +60,15 @@ forall t1.
     | t1                
     )                   
     Unit                
+
+> :t {name: "Karl", alter: 24}
+{ name :: String
+, alter :: Int
+}
+
+let karl = {name: "Karl", alter: 24}
+
+karl.name
+"Karl"
 
 #+END_SRC
