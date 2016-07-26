@@ -1,0 +1,8 @@
+* PureScript Techtalk
+
+#+BEGIN_SRC sh
+bower install
+pulp build
+pulp run -m ConcatFinal
+pulp run -m Github
+#+END_SRC

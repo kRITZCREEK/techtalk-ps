@@ -1,0 +1,58 @@
+* Intro
+Hallo beisammen, ich bin Christoph Hegemann, Werkstudent bei REWE digital und
+schreibe hier derzeit meine Bachelorarbeit. In meiner Bachelorarbeit beschäftige
+ich mich mit der funktionalen Programmiersprache PureScript und denke es wäre
+cool wenn ich euch die heute mal vorstelle.
+
+* Cheatsheet
+
+#+BEGIN_SRC purescript
+import Prelude
+
+> 1 + 2
+3
+
+> "hallo " <> "welt"
+"hallo welt"
+
+> :t 1
+Int
+
+> :t 1.0
+Number
+
+> 0.1 + 0.2
+0.30000004
+
+> :t \x -> x + 2
+Int -> Int
+
+> (\x -> x + 2) 2
+4
+
+> :t [1, 2, 3]
+Array Int
+
+> :t [1, 1.0]
+
+  Could not match type
+       
+    Int
+       
+  with type
+          
+    Number
+
+log "Hello REWE"
+"Hello REWE"
+unit
+
+> :t log "Hello REWE"
+forall t1.              
+  Eff                   
+    ( console :: CONSOLE
+    | t1                
+    )                   
+    Unit                
+
+#+END_SRC
