@@ -13,11 +13,11 @@
 
   - Wer hat eine dieser Sprachen schon einmal benutzt?
 
-  - Wie würdet ihr funktionale Programmierung definieren?
+  - Was versteht ihr unter funktionaler Programmierung?
 
 * PureScript kompiliert zu JavaScript
 
-  Es kann damit in verschiedensten Umgebungen ausgeführt werden
+  Es kann damit in verschiedenen Umgebungen ausgeführt werden
 
   - Browser
   - NodeJS
@@ -41,9 +41,9 @@
   - JavaScript (Babel)
   - ...
 
-  Dass es Probleme mit JavaScript gibt, setze ich heute
-  einfach mal voraus. Wer anderer Meinung ist kann sich
-  gerne mit mir nach dem Talk unterhalten :)
+  Dass es Schwierigkeiten mit JavaScript gibt, setze ich heute
+  einfach mal voraus. Wer anderer Meinung ist kann sich gerne
+  mit mir nach dem Talk unterhalten :)
 
 * Primitive Datentypen
   DEMO
