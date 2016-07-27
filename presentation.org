@@ -1,13 +1,22 @@
+* 
+
+
+
+
+           [[./purescript.png]]
+
 * Funktionale Programmierung
+
   - Wer hat davon schonmal gehört?
+
   - Wer hat schon einmal von PureScript, Elm oder Haskell gehört?
+
   - Wer hat eine dieser Sprachen schon einmal benutzt?
+
   - Wie würdet ihr funktionale Programmierung definieren?
 
-  # Warum habe ich Clojure(Script) nicht genannt? Weil PureScript eine statisch
-  # getypte Programmiersprache ist.
-
 * PureScript kompiliert zu JavaScript
+
   Es kann damit in verschiedensten Umgebungen ausgeführt werden
 
   - Browser
@@ -20,8 +29,9 @@
   - andere Backends (C++, Lua, Erlang)
 
 * Ist das eine gute Idee?
-  Das ist strittig, aber wir sind nicht die einzigen die auf diese Idee gekommen
-  sind:
+
+  Das ist strittig, aber wir sind nicht die einzigen
+  die auf diese Idee gekommen sind:
 
   - GWT (Google, 2006!)
   - TypeScript (Microsoft)
@@ -31,15 +41,17 @@
   - JavaScript (Babel)
   - ...
 
-  Dass es Probleme mit JavaScript gibt, setze ich heute einfach mal voraus. Wer
-  anderer Meinung ist kann sich gerne mit mir nach dem Talk unterhalten :)
+  Dass es Probleme mit JavaScript gibt, setze ich heute
+  einfach mal voraus. Wer anderer Meinung ist kann sich
+  gerne mit mir nach dem Talk unterhalten :)
 
 * Primitive Datentypen
   DEMO
 
 * Live Coding
-  Aufgabe: Schreibe eine Funktion, die zwei Dateien einliest, sie konkateniert,
-  und in eine dritte Datei schreibt.
+  Aufgabe: Schreibe eine Funktion, die zwei Dateien 
+  einliest, sie konkateniert, und in eine dritte Datei
+  schreibt.
 
   In JavaScript: concat.js
   In PureScript: Concat.purs

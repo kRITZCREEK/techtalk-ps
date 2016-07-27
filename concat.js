@@ -14,7 +14,7 @@ fs.readFile('A', (err, f1) => {
         console.error(err);
         return;
       }
-      console.log("Wrote to C");
+      console.log('Wrote to C');
     });
   });
 });
